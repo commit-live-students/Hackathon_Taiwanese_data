@@ -1,12 +1,17 @@
-# Hackathon Taiwanese Data
+### Hackathon Taiwanese Data
 
-**PROBLEM STATEMENT**:
+### PROBLEM STATEMENT:
 
 Build a model to compute probability of default for Taiwanese Credit Card Clients.
 
-**Data**:
+### Data:
 
 This dataset contains information on default payments, demographic factors, credit data, history of payment and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
+
+| Data​ ​Set Characteristics:  | Multivariate | Number​ ​of Instances: | 30000 | Area: | Business  |
+| :---: | :---: |:---: | :---: | :---: | :---: |
+| Attribute Characteristics:  | Integer, Real | Number​ ​of Attributes: | 24 | Date Donated: | 2016-01-26 |
+| Associated​ ​Tasks: | Classification | Missing​ ​Values: | N/A | Number​ ​of​ ​Web Hits: | 135593 |
 
 ### Variable description
 
@@ -32,3 +37,5 @@ There are 25 variables:
 - BILL_AMT6: Amount of bill statement in April, 2005 (NT dollar)
 - PAY_AMT1: Amount of previous payment in September, 2005(NT dollar)
 - PAY_AMT2: Amount of previous payment in August, 2005(NT dollar)
+
+### Source- https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
