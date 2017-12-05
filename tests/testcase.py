@@ -8,7 +8,7 @@ class Testing(unittest.TestCase):
 	def setUp(self):
 	    self.path = '../notebook/predicted_class.csv'
 	    self.student_return = pd.read_csv(self.path,header=None)
-	    self.original_return = pd.read_csv('Orginal_classes.csv')	
+	    self.original_return = pd.read_csv('Original_classes.csv')	
 
 	def test_return(self):
             self.assertEqual(self.student_return.shape, (6000, 1), "Return value shape does not match expected value")
