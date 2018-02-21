@@ -6,7 +6,7 @@ from pandas.util.testing import assert_frame_equal
 
 class Testing(unittest.TestCase):
 	def setUp(self):
-	    self.path = '../notebook/predicted_class.csv'
+	    self.path = '../predicted_class.csv'
 	    self.student_return = pd.read_csv(self.path,header=None)
 	    self.original_return = pd.read_csv('Original_classes.csv',header=None)	
 
